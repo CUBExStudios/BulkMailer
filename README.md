@@ -1,43 +1,63 @@
-# FormBuilder
-# 🧩 Form Builder (Open Source Typeform/Tally Alternative)
+# 📧 Bulk Mailer  
+### **Open-source alternative to Mailchimp / Brevo / Sendinblue**
 
-A modern, open-source, beautiful form builder that allows you to create 
-conversational forms, surveys, and interactive data collection flows.
+A modern, self-hostable email marketing platform that lets you send campaigns, create automations, manage subscribers, and track analytics - 100% open source.
 
-Part of the **OpenGrowthStack** suite.
-
----
-
-## 🚀 Features
-- Drag & drop form builder
-- Conversational UI (Typeform-style)
-- Conditional logic
-- File uploads
-- Payment fields (Stripe)
-- Public + private forms
-- Share links + embed widgets
-- Responses dashboard
-- API + Webhooks
-- CSV / Sheets export
-- Spam protection
+Part of the **OpenGrowthStack**.
 
 ---
 
-## 🏗 Tech Stack
-| Layer | Tech |
-|-------|------|
+# 🌟 Features
+
+### 📨 Campaigns
+- Drag-and-drop email builder  
+- HTML templates  
+- Bulk campaign sending  
+- Smart scheduling  
+- A/B testing  
+
+### 👥 Lists & Subscribers
+- Import subscribers (CSV)  
+- Tags & segmentation  
+- Custom fields  
+- GDPR-compliant features  
+- Subscription pages + unsubscribe pages  
+
+### ⚙ Automations
+- Welcome sequences  
+- Drip email campaigns  
+- Trigger-based flows  
+
+### 📊 Analytics
+- Opens  
+- Clicks  
+- Bounces  
+- Unsubscribes  
+- Geolocation (optional)  
+
+### 🌐 Integrations
+- SMTP (Sendgrid, Amazon SES, Mailgun, Postmark)  
+- Webhooks  
+- API for developers  
+
+---
+
+# 🏗 Tech Stack
+
+| Function | Tech |
+|----------|------|
+| Backend | Python FastAPI or Node.js |
 | Frontend | React + Tailwind |
-| Backend | Node.js (NestJS) |
-| Database | PostgreSQL |
-| Auth | JWT / OAuth |
+| Worker Queue | Redis / RabbitMQ |
+| Email Sending | SMTP / API Provider |
+| DB | PostgreSQL |
 | Deployment | Docker |
 
 ---
 
-## 📦 Installation (Local)
+# 🚀 Getting Started
 
+### 1. Clone the repo
 ```bash
-git clone https://github.com/OpenGrowthStack/form-builder.git
-cd form-builder
-docker-compose up
-
+git clone https://github.com/OpenGrowthStack/bulk-mailer.git
+cd bulk-mailer
