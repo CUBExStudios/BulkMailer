@@ -1,25 +1,23 @@
-# Form Builder Roadmap
+# Bulk Mailer — Roadmap
 
-## Phase 1 - MVP
-- Form creation UI
-- Basic elements (text, number, date, rating)
-- Form sharing + embed
-- Response storage
-- CSV export
+## PHASE 1 — Core Platform (Q1)
+- [x] Subscriber list
+- [x] Basic campaigns
+- [x] SMTP integration
+- [ ] HTML template editor
 
-## Phase 2 - Advanced Features
-- Conditional logic
-- Themes
-- File uploads
-- Payments
-- Analytics
+## PHASE 2 — Advanced Email Tools (Q2)
+- [ ] Drag-and-drop editor
+- [ ] A/B testing
+- [ ] Bounce tracking
+- [ ] API keys + OAuth
 
-## Phase 3 - Integrations
-- Webhooks
-- Zapier/N8N
-- Slack, Discord
+## PHASE 3 — Automations (Q3)
+- [ ] Drip sequences
+- [ ] Visual automation builder
+- [ ] Triggers (join list, custom events)
 
-## Phase 4 - Pro Features
-- Templates marketplace
-- Team accounts
-- AI question generator
+## PHASE 4 — Integrations (Q4)
+- [ ] Webhooks
+- [ ] Zapier / N8N
+- [ ] Shopify / WooCommerce
